@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: entrepot-service
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        server-addr: 127.0.0.1:8848 #注册中心地址
+server:
+  port: 17357
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: *
+#      health:
+#        show-details: always
